@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<body>
+<style>
+* {
+	boxsizing: border-box;
+}
+
+body {
+	margin: 0;
+	background: rgb(34,193,195);
+	background: linear-gradient(156deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+
+.kop {
+	color: #66ff99
+	padding: 30px;
+	text-align: center;
+	  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+<!--  site tomtom css layout -->
+.tomtom a {
+  float: left;
+  display: block;
+  color: #66ffff
+  border: 20px solid ##000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.normaal {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+</style>
+</head>
+</body>
+
+
+<div class="kop">
+<h2>Foto's</h2>
+</div>
+<!--  site tomtom -->
+<div class="tomtom">
+	<a href="Index.html">Home</a>
+	<a href="Page 2.html">Foto's</a>
+</div>
+<img id="Foto" src="Start.png" style="width:350px height:350px">
+
+<button onclick="document.getElementById('Foto').src='Shade_5.png'">Dit is een screenshot met de populaire mod "shaders" deze maakt schaduwen mooier</button>
+<button onclick="document.getElementById('Foto').src='norm_1.png'">En dit is een normaal screenshot</button>
+
+
+</body>
+</html>
